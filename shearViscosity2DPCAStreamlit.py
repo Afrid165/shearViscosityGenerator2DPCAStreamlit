@@ -41,14 +41,7 @@ def main():
     ax.set_zlabel(r"$\eta/s$")
     ax.plot_surface(T_values, mu_B_values, shear, cmap='viridis')
     st.pyplot(fig)
-    '''
-    plt.plot(T_plot, shear, '-r')
-    plt.xlim([0, 0.5])
-    plt.ylim([0, 0.5])
-    plt.xlabel(r"T (GeV)")
-    plt.ylabel(r"$\eta/s$")
-    st.pyplot(fig)
-    '''
+  
 
 if __name__ == '__main__':
     main()

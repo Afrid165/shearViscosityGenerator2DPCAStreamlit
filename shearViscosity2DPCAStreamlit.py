@@ -36,10 +36,10 @@ def main():
 
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-    ax.plot_surface(T_values, mu_B_values, shear, cmap='viridis')
     ax.set_xlabel('T (GeV)')
     ax.set_ylabel(r"$\mu_B$ (GeV)")
     ax.set_zlabel(r"$\eta/s$")
+    ax.plot_surface(T_values, mu_B_values, shear, cmap='viridis')
     st.pyplot(fig)
     '''
     plt.plot(T_plot, shear, '-r')

@@ -3,4 +3,4 @@ This is a streamlit repo to play with PCA to generate random eta/s(T) curves for
 
 (1D shear viscosity as a function of temperature T) The streamlit app is live at this [link](https://chunshen1987-shearviscosityge-shearviscositypcastreamlit-rk3n3q.streamlit.app/) 
 
-(2D shear viscosity as a function of temperature T and chemical potential mu_B) The streamlit app is live at this [link](https://shearviscositygenerator2dpcaapp-7njs4nh95debpbnsjit9vh.streamlit.app/)
+(2D shear viscosity as a function of temperature T and chemical potential mu_B) The streamlit app is live at this [link](https://zush4tevd9quayxyxuumz9.streamlit.app/)

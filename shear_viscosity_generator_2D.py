@@ -21,7 +21,7 @@ def eta_s_file_writer(T, mu_B, eta_s, filename):
     eta_s_dict = {}
     for es in range(len(eta_s)):
         #create a 2D grid of T and mu_B values
-        T_grid, mu_B_grid = np.meshgrid(T, mu_B)
+        T_grid, mu_B_grid = np.meshgrid(T, mu_B, indexing='ij')
         #T_muB = np.column_stack((T_grid.ravel(), mu_B_grid.ravel()))
         
         #make a 3d array by stacking T_muB and eta_s[es]

@@ -30,7 +30,7 @@ def main():
 
     T_plot = np.linspace(0., 0.5, 10)
     mu_B_plot = np.linspace(0., 0.5, 10)
-    T_values, mu_B_values = np.meshgrid(T_plot, mu_B_plot)
+    T_values, mu_B_values = np.meshgrid(T_plot, mu_B_plot, indexing='ij')
     #shear = pca.inverse_transform(params).flatten()
     shear = pca.inverse_transform(params).reshape(len(T_plot), len(mu_B_plot))
 
